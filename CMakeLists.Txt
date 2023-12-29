@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(02labpyatnashki)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(02labpyatnashki main.cpp Puzzle.cpp Timer.cpp PersonalRecord.cpp ErrorLog.cpp Counter.cpp GameInfo.cpp GameLauncher.cpp User.cpp OneMissingPuzzle.cpp FixedOnePuzzle.cpp)
